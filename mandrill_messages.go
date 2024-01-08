@@ -340,4 +340,5 @@ type SendResponse struct {
 	Status         string `json:"status"`
 	Id             string `json:"_id"`
 	RejectedReason string `json:"reject_reason"`
+	QueuedReason   string `json:"queued_reason"`
 }
